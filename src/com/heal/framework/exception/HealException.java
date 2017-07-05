@@ -1,7 +1,7 @@
 package com.heal.framework.exception;
 
 /**
- * Created by hbaob on 2017/7/5.
+ * Created by vahanmelikyan on 2017/7/5.
  */
 
 public class HealException extends java.lang.RuntimeException
