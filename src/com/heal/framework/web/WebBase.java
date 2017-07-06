@@ -346,7 +346,7 @@ public class WebBase {
             case "partialLinkText":
                 return By.partialLinkText(sSearchTag);
             default:
-                throw new HealException("Unrecognized locator strategy:  " + sSearchMethod);
+                throw new HealException("Unrecognized locator:  " + sSearchMethod);
         }
     }
 

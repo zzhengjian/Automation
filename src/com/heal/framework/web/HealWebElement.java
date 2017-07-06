@@ -71,7 +71,7 @@ public class HealWebElement implements WebElement, Locatable {
      *
      * @param oElement (WebElement) - Declared page element.
      * @param sName    (String)- Declared variable name.
-     * @param sTag     (By) - Declared tag.
+     * @param oBy     (By) - Declared tag.
      * @param oDriver  (WebDriver) - WebDriver object.
      */
     public HealWebElement(WebElement oElement, String sName, By oBy, WebDriver oDriver) {

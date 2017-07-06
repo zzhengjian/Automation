@@ -17,52 +17,52 @@
             <!--<class name="Test6"/>-->
         </classes>
     </test>
-    <test name="LoginTest1">
-        <!--<parameter name="browserName" value="chrome" />-->
-        <parameter name="url" value="https://patient.qa.heal.com/login" />
-        <classes>
-            <!--<class napwa.testsepwa.tests.Test1est1"/>-->
-            <class name="patient.tests.LoginTest"/>
-            <!--<class name="Test3"/>-->
-            <!--<class name="Test4"/>-->
-            <!--<class name="Test5"/>-->
-            <!--<class name="Test6"/>-->
-        </classes>
-    </test>
-    <test name="LoginTest2">
-        <!--<parameter name="browserName" value="chrome" />-->
-        <parameter name="url" value="https://patient.qa.heal.com/login" />
-        <classes>
-            <!--<class napwa.testsepwa.tests.Test1est1"/>-->
-            <class name="patient.tests.LoginTest"/>
-            <!--<class name="Test3"/>-->
-            <!--<class name="Test4"/>-->
-            <!--<class name="Test5"/>-->
-            <!--<class name="Test6"/>-->
-        </classes>
-    </test>
-    <test name="LoginTest3">
-        <!--<parameter name="browserName" value="safari" />-->
-        <parameter name="url" value="https://patient.qa.heal.com/login" />
-        <classes>
-            <!--<class napwa.testsepwa.tests.Test1est1"/>-->
-            <class name="patient.tests.LoginTest"/>
-            <!--<class name="Test3"/>-->
-            <!--<class name="Test4"/>-->
-            <!--<class name="Test5"/>-->
-            <!--<class name="Test6"/>-->
-        </classes>
-    </test>
-    <test name="LoginTest4">
-        <!--<parameter name="browserName" value="firefox" />-->
-        <parameter name="url" value="https://patient.qa.heal.com/login" />
-        <classes>
-            <!--<class napwa.testsepwa.tests.Test1est1"/>-->
-            <class name="patient.tests.LoginTest"/>
-            <!--<class name="Test3"/>-->
-            <!--<class name="Test4"/>-->
-            <!--<class name="Test5"/>-->
-            <!--<class name="Test6"/>-->
-        </classes>
-    </test>
+    <!--<test name="LoginTest1">-->
+        <!--&lt;!&ndash;<parameter name="browserName" value="chrome" />&ndash;&gt;-->
+        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
+            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test6"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginTest2">-->
+        <!--&lt;!&ndash;<parameter name="browserName" value="chrome" />&ndash;&gt;-->
+        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
+            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test6"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginTest3">-->
+        <!--&lt;!&ndash;<parameter name="browserName" value="safari" />&ndash;&gt;-->
+        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
+            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test6"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginTest4">-->
+        <!--&lt;!&ndash;<parameter name="browserName" value="firefox" />&ndash;&gt;-->
+        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
+            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="Test6"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite> <!-- Suite -->
