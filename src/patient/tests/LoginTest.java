@@ -23,7 +23,7 @@ public class LoginTest extends WebBase {
         HealWebElement.setbMonitorMode(true);
         loginPage.oUserNameInput.sendKeys("mayur+qatest@heal.com");
         loginPage.oPasswordInput.sendKeys("Heal4325");
-        loginPage.oPasswordInput.waitForElement(5000);
+
        // loginPage.oRememberMe.click(1,1);
 
         loginPage.oRegisterBtn.click();

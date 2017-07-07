@@ -12,7 +12,9 @@ public class WebDriverListener implements IInvokedMethodListener {
         if (method.isTestMethod()) {
 //            String browserName = method.getTestMethod().getXmlTest().getLocalParameters().get("browserName");
             String browserName = method.getTestMethod().getXmlTest().getAllParameters().get("browserName");
-            WebDriver driver = DriverFactory.createInstance(browserName);
+            String platform = method.getTestMethod().getXmlTest().getAllParameters().get("platform");
+            String version = method.getTestMethod().getXmlTest().getAllParameters().get("version");
+            WebDriver driver = DriverFactory.createInstance(browserName, platform, version);
             DriverManager.setWebDriver(driver);
         }
     }

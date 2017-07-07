@@ -6,8 +6,10 @@
     </listeners>
     <!--<parameter name="browserName" value="chrome" />-->
     <test name="Login Chrome">
-        <parameter name="browserName" value="chrome" />
-        <parameter name="url" value="https://patient.qa.heal.com/loginPage" />
+        <parameter name="browserName" value="sauce" />
+        <parameter name="platform" value="macOS 10.12" />
+        <parameter name="version" value="10" />
+        <parameter name="url" value="https://patient.qa.heal.com/login" />
         <classes>
             <!--<class napwa.testsepwa.tests.Test1est1"/>-->
             <class name="patient.tests.LoginTest"/>

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/utilities/WebDriverListener.java" line="12" />
-    <bookmark url="file://$PROJECT_DIR$/src/pwa/tests/_TestBase.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b6021-d4d7-421b-8302-7546f4f87624" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/patient/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/patient/pages/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNG.xml" afterPath="$PROJECT_DIR$/TestNG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/patient/tests/LoginTest.java" afterPath="$PROJECT_DIR$/src/patient/tests/LoginTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utilities/DriverFactory.java" afterPath="$PROJECT_DIR$/src/utilities/DriverFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utilities/WebDriverListener.java" afterPath="$PROJECT_DIR$/src/utilities/WebDriverListener.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="85" lean-forward="true" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WebBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heal/framework/web/WebBase.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patient/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1315#1316#0" expanded="true" />
@@ -70,11 +82,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HealException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/heal/framework/exception/HealException.java">
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utilities/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="61" />
+            <state relative-caret-position="348">
+              <caret line="25" column="67" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utilities/WebDriverListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -83,8 +107,8 @@
       <file leaf-file-name="HealWebElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heal/framework/web/HealWebElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="1322">
+              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,32 +138,6 @@
                 <element signature="e#1483#1484#0" expanded="true" />
                 <element signature="e#1525#1526#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patient/pages/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageOLD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patient/pages/HomePageOLD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -179,10 +177,14 @@
       <find>linkT</find>
       <find>findElement</find>
       <find>FileUtils</find>
+      <find>ImplicitWait</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="Heal" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -219,8 +221,6 @@
         <option value="$PROJECT_DIR$/src/pwa/tests/_TestBase.java" />
         <option value="$PROJECT_DIR$/src/pwa/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/pwa/pageObjects/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/utilities/WebDriverListener.java" />
-        <option value="$PROJECT_DIR$/src/utilities/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/utilities/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/pwa/pageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/utilities/library.java" />
@@ -234,15 +234,17 @@
         <option value="$PROJECT_DIR$/src/com/heal/framework/exception/HealException.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/TestPage.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/HealLogin.java" />
-        <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/patient/tests/LoginPageTest.java" />
-        <option value="$PROJECT_DIR$/src/patient/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/HomePageOLD.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/heal/framework/web/HealWebElement.java" />
         <option value="$PROJECT_DIR$/src/com/heal/framework/web/WebBase.java" />
         <option value="$PROJECT_DIR$/src/patient/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/com/heal/framework/web/HealWebElement.java" />
+        <option value="$PROJECT_DIR$/src/patient/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/utilities/WebDriverListener.java" />
+        <option value="$PROJECT_DIR$/src/utilities/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/TestNG.xml" />
       </list>
     </option>
   </component>
@@ -1121,38 +1123,45 @@
       <option name="project" value="LOCAL" />
       <updated>1499389598558</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added Menu class and some minor clean up">
+      <created>1499412623521</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499412623521</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="heal - 2017.07.06 at 15h 46m 05s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 00m 53s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 15h 46m 24s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 01m 40s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 15h 51m 49s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 06m 00s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 15h 52m 05s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 07m 45s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 47m 56s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 07m 54s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 48m 29s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 09m 48s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 48m 59s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 10m 09s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 49m 58s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 11m 30s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 51m 34s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 11m 38s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="heal - 2017.07.06 at 16h 52m 01s.xml">
+    <history-entry file="heal - 2017.07.07 at 01h 12m 37s.xml">
       <configuration name="heal" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1167,10 +1176,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13129973" sideWeight="0.5611111" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26392573" sideWeight="0.21527778" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2767154" sideWeight="0.48402777" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26434195" sideWeight="0.7888889" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26392573" sideWeight="0.7847222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1291,26 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/WebDriverListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utilities/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1410,14 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patient/pages/_BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1478,30 +1459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heal/framework/web/HealWebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heal/framework/web/WebBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="77" column="53" lean-forward="true" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patient/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1518,8 +1479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patient/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1315#1316#0" expanded="true" />
@@ -1527,6 +1488,52 @@
             <element signature="e#1421#1422#0" expanded="true" />
             <element signature="e#1463#1464#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heal/framework/web/HealWebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1322">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patient/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/WebDriverListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="25" column="67" lean-forward="false" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="85" lean-forward="true" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
