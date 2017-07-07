@@ -12,9 +12,9 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage extends WebBase{
 
     public static final String URL = "https://patient.qa.heal.com/login";
-///////////////////
-// Page Elements //
-///////////////////
+    ///////////////////
+    // Page Elements //
+    ///////////////////
     public HealWebElement oUserNameInput = new HealWebElement("oUserNameInput", "name=username",oWebDriver);
     public HealWebElement oPasswordInput = new HealWebElement("oPasswordInput", "name=password", oWebDriver);
     public HealWebElement oLoginBtn = new HealWebElement("oLoginBtn", "xpath=//*[text()='Log In']", oWebDriver);
@@ -23,9 +23,9 @@ public class LoginPage extends WebBase{
     public HealWebElement oWarningMsg = new HealWebElement("oWarningMsg","className=error-messages",oWebDriver);
     public HealWebElement oRegisterBtn = new HealWebElement("oRegisterNtm", "xpath=//*[text()='Register']", oWebDriver);
 
-//////////////////
-// Constructors //
-//////////////////
+    //////////////////
+    // Constructors //
+    //////////////////
     public LoginPage(WebDriver oTargetDriver)
     {
         super(oTargetDriver, URL);
@@ -34,9 +34,9 @@ public class LoginPage extends WebBase{
     {
         super(oTargetDriver, sUrl);
     }
-/////////////
-// Methods //
-/////////////
+    /////////////
+    // Methods //
+    /////////////
     public void Login()
     {
         this.oUserNameInput.sendKeys("mayur+qatest@heal.com");
