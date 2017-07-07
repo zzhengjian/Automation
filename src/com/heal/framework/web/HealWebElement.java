@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * Created by vahanmelikyan on 2017/7/5.
+ * Created by vahanmelikyan on 7/1/17.
  */
 public class HealWebElement implements WebElement, Locatable {
     Logger logger = LoggerFactory.getLogger(HealWebElement.class);
@@ -28,7 +28,7 @@ public class HealWebElement implements WebElement, Locatable {
 
     private static int iImplicitWait = 30;
     private static int iThrottleValue = 0;
-    private static boolean bMonitorMode = false;
+    private static boolean bMonitorMode = true;
 
     private WebDriver oWebDriver;
     private JavascriptExecutor oJavascriptExecutor;
@@ -227,7 +227,7 @@ public class HealWebElement implements WebElement, Locatable {
         waitForVisible();
         oWebElement.clear();
 
-        //In some specific cases text can not be cleared successfully
+        //If text can not be cleared successfully
         //send backspaces keys again to delete the text
         int length = oWebElement.getAttribute("value").length();
         for (int i = length; i > 0; i--) {
@@ -775,9 +775,9 @@ public class HealWebElement implements WebElement, Locatable {
             if (bMonitorMode) {
                 highlightMe();
                 try {Thread.sleep(1000);
-} catch (InterruptedException e){
-e.printStackTrace();
-}
+                } catch (InterruptedException e){
+                    e.printStackTrace();
+                }
                 unHighlightMe();
             }
 

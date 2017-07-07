@@ -4,10 +4,10 @@
     <listeners>
         <listener class-name="utilities.WebDriverListener"></listener>
     </listeners>
-    <parameter name="browserName" value="chrome" />
-    <test name="LoginTest">
-        <!--<parameter name="browserName" value="chrome" />-->
-        <parameter name="url" value="https://patient.qa.heal.com/login" />
+    <!--<parameter name="browserName" value="chrome" />-->
+    <test name="Login Chrome">
+        <parameter name="browserName" value="chrome" />
+        <parameter name="url" value="https://patient.qa.heal.com/loginPage" />
         <classes>
             <!--<class napwa.testsepwa.tests.Test1est1"/>-->
             <class name="patient.tests.LoginTest"/>
@@ -17,24 +17,24 @@
             <!--<class name="Test6"/>-->
         </classes>
     </test>
-    <!--<test name="LoginTest1">-->
-        <!--&lt;!&ndash;<parameter name="browserName" value="chrome" />&ndash;&gt;-->
-        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+    <!--<test naLoginPageogin Firefox">-->
+        <!--<parameter name="browserName" value="firefox" />-->
+        <!--<parameter name="url" value="https://patient.qa.heal.loginPageogin" />-->
         <!--<classes>-->
             <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
-            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--<class napatient.tests.LoginPageTestTestTest"/>-->
             <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test6"/>&ndash;&gt;-->
         <!--</classes>-->
     <!--</test>-->
-    <!--<test name="LoginTest2">-->
-        <!--&lt;!&ndash;<parameter name="browserName" value="chrome" />&ndash;&gt;-->
-        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+    <!--<test naLoginPageogin Safari">-->
+        <!--<parameter name="browserName" value="safari" />-->
+        <!--<parameter name="url" value="https://patient.qa.heal.loginPageogin" />-->
         <!--<classes>-->
             <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
-            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--<class napatient.tests.LoginPageTestTestTest"/>-->
             <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
@@ -43,10 +43,10 @@
     <!--</test>-->
     <!--<test name="LoginTest3">-->
         <!--&lt;!&ndash;<parameter name="browserName" value="safari" />&ndash;&gt;-->
-        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<parameter name="url" value="https://patient.qa.heal.loginPageogin" />-->
         <!--<classes>-->
             <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
-            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--<class napatient.tests.LoginPageTestTestTest"/>-->
             <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->
@@ -55,10 +55,10 @@
     <!--</test>-->
     <!--<test name="LoginTest4">-->
         <!--&lt;!&ndash;<parameter name="browserName" value="firefox" />&ndash;&gt;-->
-        <!--<parameter name="url" value="https://patient.qa.heal.com/login" />-->
+        <!--<parameter name="url" value="https://patient.qa.heal.loginPageogin" />-->
         <!--<classes>-->
             <!--&lt;!&ndash;<class napwa.testsepwa.tests.Test1est1"/>&ndash;&gt;-->
-            <!--<class name="patient.tests.LoginTest"/>-->
+            <!--<class napatient.tests.LoginPageTestTestTest"/>-->
             <!--&lt;!&ndash;<class name="Test3"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test4"/>&ndash;&gt;-->
             <!--&lt;!&ndash;<class name="Test5"/>&ndash;&gt;-->

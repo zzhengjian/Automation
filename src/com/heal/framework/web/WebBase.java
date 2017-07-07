@@ -19,14 +19,14 @@ import java.io.PrintWriter;
 import java.sql.Timestamp;
 
 /**
- * Created by vahanmelikyan on 2017/7/4.
+ * Created by vahanmelikyan on 6/29/17.
  */
 public class WebBase {
 
     Logger logger = LoggerFactory.getLogger(WebBase.class);
 
     public static final int IMPLICIT_WAIT = 60;
-    public static final String SCREENSHOT_LOCATION = "/QA/Automation/out/screenshots";
+    public static final String SCREENSHOT_LOCATION = "/Automation/out/screenshots";
 
     public WebDriver oWebDriver;
     public String sBrowserType;
@@ -116,16 +116,8 @@ public class WebBase {
                 oWebDriver = new PhantomJSDriver(dCaps);
                 break;
             case "Safari":
-//				startSeleniumRC();
-//				com.thoughtworks.selenium.Selenium sel = new com.thoughtworks.selenium.DefaultSelenium("localhost", 4444, "*safari", "http://www.google.com");
-//				org.openqa.selenium.remote.CommandExecutor executor = new org.openqa.selenium.SeleneseCommandExecutor(sel);
-//				org.openqa.selenium.remote.DesiredCapabilities dc = new org.openqa.selenium.remote.DesiredCapabilities();
-//				oWebDriver = new org.openqa.selenium.remote.RemoteWebDriver(executor, dc);
                 oWebDriver = new org.openqa.selenium.safari.SafariDriver();
                 break;
-//            case "Android":
-//                oWebDriver = new org.openqa.selenium.android.AndroidDriver();
-//                break;
             default:
                 oWebDriver = null;
         }
@@ -341,6 +333,8 @@ public class WebBase {
                 return By.name(sSearchTag);
             case "xpath":
                 return By.xpath(sSearchTag);
+            case "className":
+                return By.className(sSearchTag);
             case "linkText":
                 return By.linkText(sSearchTag);
             case "partialLinkText":
@@ -491,8 +485,9 @@ public class WebBase {
     }
 
     /**
-     * Wait for page to complete load.  This is done by waiting for a new window instance and javascript 'document.readystate'.  Every time a page is loaded, a new
-     * Window object is created in the WebDriver.  So we wait for this new Window object and wait for the document.readystate to be 'complete'.
+     * Wait for page to complete load.  This is done by waiting for a new window instance and javascript 'document.readystate'.
+     * Every time a page is loaded, a new window object is created in the WebDriver.
+     * So we wait for this new Window object and wait for the document.readystate to be 'complete'.
      *
      * @param iTimeOut (int) - Wait timeout in seconds.
      */

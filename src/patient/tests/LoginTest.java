@@ -1,37 +1,40 @@
 package patient.tests;
 
+import com.heal.framework.web.HealWebElement;
+import com.heal.framework.web.WebBase;
 import org.openqa.selenium.WebDriver;
-import utilities.DriverManager;
-import patient.pages.HomePage;
 import patient.pages.LoginPage;
-import patient.pages.HealLogin;
+import utilities.DriverManager;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class LoginTest extends _TestBase {
+public class LoginTest extends WebBase {
 
-
-    LoginPage loginPage = new LoginPage();
-    HomePage homePage = new HomePage();
     WebDriver dr = DriverManager.getDriver();
 
     @Test
     @Parameters({ "url" })
-    public void Heal1(String url) throws Exception {
+    public void loginWithValidCredentials(String url) throws Exception {
+
         WebDriver dr = DriverManager.getDriver();
 
        // lib.browserGoTo(url);
-        HealLogin healLogin = new HealLogin(dr);
+        LoginPage loginPage = new LoginPage(dr, url);
+        HealWebElement.setbMonitorMode(true);
+        loginPage.oUserNameInput.sendKeys("mayur+qatest@heal.com");
+        loginPage.oPasswordInput.sendKeys("Heal4325");
+        loginPage.oPasswordInput.waitForElement(5000);
+       // loginPage.oRememberMe.click(1,1);
 
-        healLogin.oUserNameInput.sendKeys("mayur+qatest@heal.com");
-        healLogin.oPasswordInput.sendKeys("Heal4325");
-        healLogin.oLoginBtn.click();
-//        healLogin.Login();
+        loginPage.oRegisterBtn.click();
+        Thread.sleep(4000);
+        //loginPage.oLoginBtn.click();
+//        loginPage.LoginPage();
 
 
 
-           // HealLogin.LoginSF();
-//            loginPage.login();
+           // LoginPage.LoginSF();
+//            loginPage.loginPage();
 //            homePage.home();
 //            homePage.bookVisit();
 //            homePage.visits();

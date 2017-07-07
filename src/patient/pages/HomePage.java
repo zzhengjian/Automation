@@ -1,56 +1,49 @@
 package patient.pages;
 
+import com.heal.framework.web.HealWebElement;
+import com.heal.framework.web.WebBase;
+
+import org.openqa.selenium.WebDriver;
+import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 /**
- * Created by vahanmelikyan on 6/26/17.
+ * Created by vahanmelikyan on 7/5/17.
  */
-public class HomePage extends _BasePage {
+public class HomePage extends WebBase{
 
+    public static final String URL = "https://patient.qa.heal.com/login";
+    ///////////////////
+    // Page Elements //
+    ///////////////////
+    public HealWebElement oUserNameInput = new HealWebElement("oUserNameInput", "name=username",oWebDriver);
+    public HealWebElement oPasswordInput = new HealWebElement("oPasswordInput", "name=password", oWebDriver);
+    public HealWebElement oLoginBtn = new HealWebElement("oLoginBtn", "xpath=//*[text()='Log In']", oWebDriver);
+    public HealWebElement oRememberMe = new HealWebElement("oRememberMe", "className=md-icon", oWebDriver);
+    public HealWebElement oForgotYourPasswordLnk = new HealWebElement("oForgotYourPasswordLnk", "linkText=Forgot Password", oWebDriver);
+    public HealWebElement oWarningMsg = new HealWebElement("oWarningMsg","className=error-messages",oWebDriver);
+    public HealWebElement oRegisterBtn = new HealWebElement("oRegisterNtm", "xpath=//*[text()='Register']", oWebDriver);
 
-    public void openMenu() {
-        lib.openMenu(lib.getProp("hamburgerMenu"));
-        try {
-            lib.waitForElement(lib.getProp("signOut"));
-            lib.prinlntWithThreadID("Opened menu...");
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+    //////////////////
+    // Constructors //
+    //////////////////
+    public HomePage(WebDriver oTargetDriver)
+    {
+        super(oTargetDriver, URL);
     }
-
-    public void home() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("home"), lib.getProp("loadingScreen"));
-//        lib.clickElement(lib.getProp("home"));
+    public HomePage(WebDriver oTargetDriver, String sUrl)
+    {
+        super(oTargetDriver, sUrl);
     }
-
-    public void bookVisit() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("bookVisit"), lib.getProp("loadingScreen"));
-//        lib.clickElement(lib.getProp("bookVisit"));
-    }
-
-    public void visits() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("visits"), lib.getProp("loadingScreen"));
-//       lib.clickElement(lib.getProp("visits"));
-    }
-
-    public void profiles() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("profiles"), lib.getProp("loadingScreen"));
-//        lib.clickElement(lib.getProp("profiles"));
-    }
-
-    public void paymentMethods() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("paymentMethods"), lib.getProp("loadingScreen"));
-//        lib.clickElement(lib.getProp("paymentMethods"));
-    }
-
-    public void signOut() {
-        openMenu();
-        lib.clickElementAndWait(lib.getProp("signOut"), lib.getProp("loadingScreen"));
-//        lib.clickElement(lib.getProp("signOut"));
+    /////////////
+    // Methods //
+    /////////////
+    public void Login()
+    {
+        this.oUserNameInput.sendKeys("mayur+qatest@heal.com");
+        this.oPasswordInput.sendKeys("Heal4325");
+        this.oLoginBtn.click();
     }
 
 }
