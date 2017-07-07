@@ -29,6 +29,7 @@ _DS_Store
 .AppleDouble
 .LSOverride
 *.class
+.idea/
 
 # Thumbnails
 ._*
