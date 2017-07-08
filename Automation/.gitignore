@@ -34,7 +34,7 @@ _DS_Store
 # Thumbnails
 ._*
 
-# Folders
+# Folders to ignore
 .idea/
 
 # Compiled class file
