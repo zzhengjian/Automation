@@ -34,6 +34,23 @@ _DS_Store
 # Thumbnails
 ._*
 
+# Folders
+.idea/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
