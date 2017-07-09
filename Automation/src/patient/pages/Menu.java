@@ -21,7 +21,7 @@ public class Menu extends WebBase{
     public HealWebElement oPamentMethodLnk = new HealWebElement("oPamentMethodLnk", "xpath=//*[@ui-sref='main.body.payments.listCards']",oWebDriver);
     public HealWebElement oSignOutLnk = new HealWebElement("oSignOutLnk", "xpath=//*[@ui-sref='unauthenticate']",oWebDriver);
     public HealWebElement oMenuBtn = new HealWebElement("oMenuBtn", "xpath=//button[contains(@class,'md-icon-button')]",oWebDriver);
-    public HealWebElement oLoadingBar = new HealWebElement("oLoadingBar", "className=md-dashed",oWebDriver);
+    public HealWebElement oLoadingBar = new HealWebElement("oLoadingBar", "className=md-container md-mode-indeterminate",oWebDriver);
 
 
     //////////////////
@@ -32,18 +32,19 @@ public class Menu extends WebBase{
     {
         super(oTargetDriver);
     }
+
     /////////////
     // Methods //
     /////////////
     public void SelectFromMenu(HealWebElement menuItem)
     {
-
+        if (oLoadingBar.exists()){
+            oLoadingBar.waitForInvisible();
+        }
         if (oMenuBtn.exists()){
             oMenuBtn.waitForEnabled();
             oMenuBtn.click();
-
         }
         menuItem.click();
-        oLoadingBar.waitForInvisible();
     }
 }
