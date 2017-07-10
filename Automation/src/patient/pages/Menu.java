@@ -41,8 +41,8 @@ public class Menu extends WebBase{
         if (oLoadingBar.exists()){
             oLoadingBar.waitForInvisible();
         }
-        if (oMenuBtn.exists()){
-            oMenuBtn.waitForEnabled();
+        if (oMenuBtn.isDisplayed() && oMenuBtn.isEnabled()){
+            oMenuBtn.waitForEnabled(1);
             oMenuBtn.click();
         }
         menuItem.click();
