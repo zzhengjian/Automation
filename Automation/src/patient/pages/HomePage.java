@@ -18,8 +18,6 @@ public class HomePage extends WebBase{
     // Shared Pages  //
     ///////////////////
     Menu menu = new Menu(oWebDriver);
-	
-	///////////////////
 
     ///////////////////
     // Page Elements //
